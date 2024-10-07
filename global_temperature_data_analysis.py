@@ -16,8 +16,7 @@ gif_url = "https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif"
 st.image(gif_url, caption='Dancing while analyzing the data!', use_column_width=True)
 
 
-data=pd.read_csv('/Users/shilpaghosh/Downloads/archive (13)/GlobalLandTemperaturesByCountry.csv')
-print(data.head())
+data=pd.read_csv('global_land_temps_by_country.csv')
 
 
 # Convert 'dt' column to datetime
